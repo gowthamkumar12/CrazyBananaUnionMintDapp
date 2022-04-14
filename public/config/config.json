@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0xfC3a2bBd388DeD52c704b5E9de1efE6f20Ce1A33",
-  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0xfC3a2bBd388DeD52c704b5E9de1efE6f20Ce1A33",
+  "CONTRACT_ADDRESS": "0x639319180aDE81E3a23A0F01f1efCA3C0310d5a7",
+  "SCAN_LINK": "https://polygonscan.com/address/0x639319180ade81e3a23a0f01f1efca3c0310d5a7",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
-    "ID": 80001
+    "ID": 137
   },
   "NFT_NAME": "Crazy Banana Union",
   "SYMBOL": "CBU",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 3,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/crazybananaunion",
   "SHOW_BACKGROUND": true
 }
