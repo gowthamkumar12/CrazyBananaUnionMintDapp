@@ -114,7 +114,7 @@ function Minting(){
         <img className="image" src={Banana} width="500"/>
         {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
           <div className="content">
-            <h1 className="content-text">Sale Has Not<span className="effect">Started</span> Yet.</h1> 
+            <h1 className="content-text">Sale Has Not <span className="effect">Started</span> Yet.</h1> 
             <p className="content-ls">You can still find {CONFIG.NFT_NAME} on <a href={CONFIG.MARKETPLACE_LINK} target="_blank" rel="noreferrer" style={{color: '#0074CC'}}>{CONFIG.MARKETPLACE}</a></p>           
           </div>
         ):(
