@@ -114,14 +114,14 @@ function Minting(){
         <img className="image" src={Banana} width="500"/>
         {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
           <div className="content">
-            <h1 className="content-text">Sale Has <span className="effect">Ended</span>.</h1> 
+            <h1 className="content-text">Sale Has Not<span className="effect">Started</span> Yet.</h1> 
             <p className="content-ls">You can still find {CONFIG.NFT_NAME} on <a href={CONFIG.MARKETPLACE_LINK} target="_blank" rel="noreferrer" style={{color: '#0074CC'}}>{CONFIG.MARKETPLACE}</a></p>           
           </div>
         ):(
           <div className="content">
             <h1 className="content-text">Public Mint is <span className="effect">Live</span>.</h1>
             <p className="content-ls">LIMITED SALE</p>
-            <p className="content-count">{data.totalSupply} / {CONFIG.MAX_SUPPLY}</p>
+            <p className="content-count">{data.totalSupply} / 10000</p>
             <br />
             {blockchain.account === "" || blockchain.smartContract === null ? (
               <>
